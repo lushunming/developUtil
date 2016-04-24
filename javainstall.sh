@@ -24,3 +24,15 @@ fi
 #update environment
 source /etc/environment  
 ehco "jdk is installed !"
+
+
+
+ 在etc/profile中加入：
+JAVA_HOME=/usr/local/java/jdk1.7.0_67
+PATH=$PATH:$HOME/bin:$JAVA_HOME/bin
+export JAVA_HOME
+export JRE_HOME
+export PATH
+
+
+
