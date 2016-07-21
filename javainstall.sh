@@ -27,6 +27,12 @@ ehco "jdk is installed !"
 
 
 
+
+安装chrome   wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+ sudo gdebi google-chrome-stable_current_amd64.deb
+
+
+
  在etc/profile中加入：
 JAVA_HOME=/usr/local/java/jdk1.7.0_67
 PATH=$PATH:$HOME/bin:$JAVA_HOME/bin
